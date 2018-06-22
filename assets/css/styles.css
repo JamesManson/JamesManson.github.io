@@ -1,0 +1,136 @@
+.navbar-brand {
+  float:left;
+  height:50px;
+  padding:15px 15px;
+  font-size:18px;
+  line-height:20px;
+}
+
+#homeDisplay {
+  text-align:center;
+  padding:40px;
+  background-image:url(../../assets/img/softwareengineering.jpg);
+  background-size:cover;
+}
+
+@media (max-width:991px) {
+  #homeDisplay {
+    padding:20px;
+  }
+}
+
+#homeDisplay .jumbotron {
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.75);
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (max-width:991px) {
+  #homeDisplay .jumbotron {
+    padding:20px;
+  }
+}
+
+#H3SpacingFromTop {
+  padding-top:70px;
+}
+
+#H3TimelineFromTop {
+  padding-top:70px;
+}
+
+#PTimelineFromBottom {
+  padding-bottom:70px;
+}
+
+#PProfFromBottom {
+  padding-bottom:70px;
+}
+
+#ProfHeading {
+  padding-top:30px;
+}
+
+#TimeHeading {
+  padding-top:30px;
+}
+
+#JamesHeading {
+  padding-top:30px;
+}
+
+#TechHeading {
+  padding-top:30px;
+}
+
+#CurrHeading {
+  padding-top:30px;
+}
+
+#H3TechFromTop {
+  padding-top:70px;
+}
+
+#PUnderImg1 {
+  padding-top:10px;
+}
+
+#PUnderImg2 {
+  padding-top:10px;
+}
+
+#H4Space {
+  padding-top:30px;
+}
+
+#PUnderBugTrack {
+  padding-top:10px;
+}
+
+#H4SpaceUnderH3 {
+  padding-top:30px;
+}
+
+#H3Contribution {
+  padding-top:30px;
+}
+
+#PUnderCSS {
+  padding-top:10px;
+}
+
+#semTableImg {
+  padding-bottom:70px;
+}
+
+#IntroP {
+  padding-top:30px;
+}
+
+#PBottomHomePage {
+  padding-bottom:200px;
+}
+
+.navbar-default {
+  background-image:-webkit-linear-gradient(top,#fff 0,#f8f8f8 100%);
+  background-image:-o-linear-gradient(top,#fff 0,#f8f8f8 100%);
+  background-image:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#f8f8f8));
+  background-image:linear-gradient(to bottom,#fff 0,#f8f8f8 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+  filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat:repeat-x;
+  border-radius:4px;
+  -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+}
+
+#CVImage {
+  display:block;
+  padding-top:70px;
+  padding-bottom:70px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
